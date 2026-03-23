@@ -9,7 +9,11 @@ public class InOut {
         //nextLine() - for string input with spaces
         //nextFloat() - for float input
 
-        String name  = sc.next();
-        System.out.println(name);
+        //String name  = sc.next();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        System.out.println(sum);
+       // System.out.println(name);
     }
 }
