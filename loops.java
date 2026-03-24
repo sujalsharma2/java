@@ -37,7 +37,7 @@ public class loops {
         System.out.println( n * i);
        }
 
-
+ 
 
      }
 }
