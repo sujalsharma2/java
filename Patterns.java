@@ -75,7 +75,7 @@ public class Patterns {
 
             // Q4:   
             
-        int n = 5;
+       /*  int n = 5;
         for (int i = 1; i <= n; i++) 
      {
             for (int j = 1; j <= i ; j++)
@@ -88,8 +88,54 @@ public class Patterns {
                 }
             }
             System.out.println();
-        }
+        }*/
         
+        // UPPER HALF PYRAMID
+        int n = 5;
+        for (int i = 1; i <= n; i++)
+        {
+            for (int j = 1; j <= i; j++)
+            {
+                System.out.print("*");
+            }
+            // spaces 
+            int spaces = 2 * (n - i);
+            for (int j = 1; j <= spaces; j++)
+            {
+                System.out.print(" ");
+            }
+
+            // 2nd half of the pyramid
+            for (int j = 1; j <= i; j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+           
+        }
+         //lower half of the pyramid
+            for (int i = n; i >= 1; i--)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    System.out.print("*");
+                }
+                // spaces 
+                int spaces2 = 2 * (n - i);
+                for (int j = 1; j <= spaces2; j++)
+                {
+                    System.out.print(" ");
+                }
+
+                // 2nd half of the pyramid
+                for (int j = 1; j <= i; j++)
+                {
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
     }
     
 }
+
+ 
