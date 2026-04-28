@@ -33,9 +33,9 @@ public class FunctionsMethods
         int n = sc.nextInt();
         printFactorial(n);
 
+        
 
-
-
+        
        // int n = 4;
     }       // int m = 5;
 
